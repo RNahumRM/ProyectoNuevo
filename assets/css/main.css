@@ -22,7 +22,9 @@
     }
 
 .space {
-    display:flex;
+    margin-top: 100px; 
+
+    display: flex;
     
     align-items: center;
     
@@ -31,4 +33,12 @@
     flex-wrap: wrap;
     
     border: 10px ;
+}
+
+.carousel{
+    margin-top: 50px;
+    height: 500px;
+    width: 500px;
+    display:flex;
+    align-items: center;
 }
